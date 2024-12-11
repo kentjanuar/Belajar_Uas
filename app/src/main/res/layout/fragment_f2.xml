@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".f2"
+    android:orientation="vertical"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Halaman 2" />
+
+    <EditText
+        android:id="@+id/cari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="cari untuk edit"/>
+
+    <EditText
+        android:id="@+id/posterFilm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/judulFilm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan judul"/>
+
+    <EditText
+        android:id="@+id/deskripsiFilm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/tambahFilm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambahakan film"/>
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="edit"
+        />
+
+
+
+
+
+</LinearLayout>
